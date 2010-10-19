@@ -1,0 +1,1405 @@
+# Logfile created on Sun Oct 17 21:24:23 -0700 2010REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 22:14:54) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 512ms (View: 508, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 22:14:54) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 22:16:14) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 387ms (View: 383, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 22:16:14) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 22:16:14) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 8ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 22:17:34) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 385ms (View: 381, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 22:17:34) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 9, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 22:17:34) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 9, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 22:17:34) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 22:18:19) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 399ms (View: 394, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 22:18:19) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 22:18:19) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 22:18:19) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 22:19:08) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 373ms (View: 369, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 22:19:09) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 22:19:09) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 22:19:09) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 8ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 22:24:24) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 384ms (View: 380, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 22:24:25) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 22:24:25) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 22:24:25) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 22:57:27) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 389ms (View: 384, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 22:57:28) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 9, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 22:57:28) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 22:57:28) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 23:03:49) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 389ms (View: 385, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 23:03:49) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 23:03:49) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 23:03:49) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 23:08:16) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 404ms (View: 399, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 23:08:17) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 23:08:17) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 23:08:18) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 9, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 23:09:55) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 384ms (View: 380, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 23:09:55) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 23:09:55) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 23:09:55) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 23:13:29) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 394ms (View: 390, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 23:13:29) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 23:13:30) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 23:13:30) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 23:30:26) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 386ms (View: 382, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 23:30:26) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 23:30:26) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 23:30:26) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 23:37:20) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 387ms (View: 383, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 23:37:20) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 23:37:20) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 23:37:20) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 23:38:38) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 387ms (View: 383, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 23:38:38) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 23:38:38) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 23:38:38) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 23:41:10) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 400ms (View: 396, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 23:41:10) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 23:41:10) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 23:41:10) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 23:53:37) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 398ms (View: 394, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 23:53:37) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 23:53:37) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 23:53:37) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 8ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 23:54:20) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 384ms (View: 380, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 23:54:20) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 23:54:20) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-17 23:54:21) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 01:06:19) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 387ms (View: 383, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 01:06:20) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {"HTTP_REFERER"=>"/movies/new"}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 01:06:20) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 01:06:20) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 01:06:20) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 8ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 01:08:19) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 397ms (View: 393, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 01:08:19) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {"HTTP_REFERER"=>"/movies/new"}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 01:08:19) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 01:08:19) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 01:08:19) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 01:09:56) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 385ms (View: 381, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 01:09:56) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {"HTTP_REFERER"=>"/movies/new"}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 01:09:56) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 01:09:56) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 01:09:56) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 01:30:30) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 395ms (View: 391, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 01:30:31) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {"HTTP_REFERER"=>"/movies/new"}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 01:30:31) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 01:30:31) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 01:30:31) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 02:16:32) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 385ms (View: 381, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 02:16:33) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {"HTTP_REFERER"=>"/movies/new"}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 02:16:33) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 02:16:33) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 02:16:33) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 8ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 02:17:42) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 409ms (View: 405, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 02:17:43) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {"HTTP_REFERER"=>"/movies/new"}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 02:17:43) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 02:17:43) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 02:17:43) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 02:32:47) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 387ms (View: 383, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 02:32:47) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {"HTTP_REFERER"=>"/movies/new"}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 02:32:47) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 02:32:47) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 02:32:47) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 02:34:11) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 388ms (View: 384, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 02:34:11) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {"HTTP_REFERER"=>"/movies/new"}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 02:34:11) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 02:34:11) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 8ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 02:34:11) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 8ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 02:35:29) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 393ms (View: 389, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 02:35:29) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {"HTTP_REFERER"=>"/movies/new"}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 02:35:29) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: POST /movies with {"commit"=>"Enter", "movie"=>{"title"=>"Star Wars"}} and HTTP headers {"HTTP_REFERER"=>"/movies/new"}
+
+
+Processing MoviesController#create (for 127.0.0.1 at 2010-10-18 02:35:29) [POST]
+  Parameters: {"commit"=>"Enter", "movie"=>{"title"=>"Star Wars"}}
+  [4;36;1mMovie Load (0.0ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Star Wars') LIMIT 1[0m
+  [4;35;1mMovie Create (1.0ms)[0m   [0mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES(NULL, '2010-10-18 09:35:29', 'Star Wars', NULL, '2010-10-18 09:35:29', NULL)[0m
+Redirected to http://www.example.com/movies/1
+Completed in 7ms (DB: 1) | 302 Found [http://www.example.com/movies]
+REQUESTING PAGE: GET http://www.example.com/movies/1 with {} and HTTP headers {"HTTP_REFERER"=>"/movies"}
+
+
+Processing MoviesController#show (for 127.0.0.1 at 2010-10-18 02:35:29) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mMovie Load (0.0ms)[0m   [0;1mSELECT * FROM "movies" WHERE ("movies"."id" = 1) [0m
+Rendering template within layouts/movies
+Rendering movies/show
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://www.example.com/movies/1]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 02:35:29) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 02:35:29) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 02:41:05) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 387ms (View: 383, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 02:41:05) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 02:41:05) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 02:41:05) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 12:37:08) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 404ms (View: 400, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 12:37:08) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 12:37:08) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 8ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 12:37:08) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 8ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 13:51:08) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 397ms (View: 392, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 13:51:09) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 8ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {"HTTP_REFERER"=>"/movies/new/results"}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 13:51:09) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: POST /movies with {"commit"=>"Enter", "movie"=>{"title"=>"Star Wars"}} and HTTP headers {"HTTP_REFERER"=>"/movies/new"}
+
+
+Processing MoviesController#create (for 127.0.0.1 at 2010-10-18 13:51:09) [POST]
+  Parameters: {"commit"=>"Enter", "movie"=>{"title"=>"Star Wars"}}
+  [4;36;1mMovie Load (0.0ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Star Wars') LIMIT 1[0m
+  [4;35;1mMovie Create (1.0ms)[0m   [0mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES(NULL, '2010-10-18 20:51:09', 'Star Wars', NULL, '2010-10-18 20:51:09', NULL)[0m
+Redirected to http://www.example.com/movies/1
+Completed in 7ms (DB: 1) | 302 Found [http://www.example.com/movies]
+REQUESTING PAGE: GET http://www.example.com/movies/1 with {} and HTTP headers {"HTTP_REFERER"=>"/movies"}
+
+
+Processing MoviesController#show (for 127.0.0.1 at 2010-10-18 13:51:09) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mMovie Load (1.0ms)[0m   [0;1mSELECT * FROM "movies" WHERE ("movies"."id" = 1) [0m
+Rendering template within layouts/movies
+Rendering movies/show
+Completed in 4ms (View: 2, DB: 1) | 200 OK [http://www.example.com/movies/1]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 13:51:09) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 66ms (View: 65, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 13:51:09) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 13:51:56) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 389ms (View: 385, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 13:51:57) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {"HTTP_REFERER"=>"/movies/new/results"}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 13:51:57) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: POST /movies with {"commit"=>"Enter", "movie"=>{"title"=>"Star Wars"}} and HTTP headers {"HTTP_REFERER"=>"/movies/new"}
+
+
+Processing MoviesController#create (for 127.0.0.1 at 2010-10-18 13:51:57) [POST]
+  Parameters: {"commit"=>"Enter", "movie"=>{"title"=>"Star Wars"}}
+  [4;36;1mMovie Load (1.0ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Star Wars') LIMIT 1[0m
+  [4;35;1mMovie Create (1.0ms)[0m   [0mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES(NULL, '2010-10-18 20:51:57', 'Star Wars', NULL, '2010-10-18 20:51:57', NULL)[0m
+Redirected to http://www.example.com/movies/1
+Completed in 6ms (DB: 2) | 302 Found [http://www.example.com/movies]
+REQUESTING PAGE: GET http://www.example.com/movies/1 with {} and HTTP headers {"HTTP_REFERER"=>"/movies"}
+
+
+Processing MoviesController#show (for 127.0.0.1 at 2010-10-18 13:51:57) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mMovie Load (1.0ms)[0m   [0;1mSELECT * FROM "movies" WHERE ("movies"."id" = 1) [0m
+Rendering template within layouts/movies
+Rendering movies/show
+Completed in 4ms (View: 2, DB: 1) | 200 OK [http://www.example.com/movies/1]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 13:51:57) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 13:51:57) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 13:52:31) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 397ms (View: 393, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 13:52:32) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {"HTTP_REFERER"=>"/movies/new/results"}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 13:52:32) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: POST /movies with {"commit"=>"Enter", "movie"=>{"title"=>"Star Wars"}} and HTTP headers {"HTTP_REFERER"=>"/movies/new"}
+
+
+Processing MoviesController#create (for 127.0.0.1 at 2010-10-18 13:52:32) [POST]
+  Parameters: {"commit"=>"Enter", "movie"=>{"title"=>"Star Wars"}}
+  [4;36;1mMovie Load (1.0ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Star Wars') LIMIT 1[0m
+  [4;35;1mMovie Create (2.0ms)[0m   [0mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES(NULL, '2010-10-18 20:52:32', 'Star Wars', NULL, '2010-10-18 20:52:32', NULL)[0m
+Redirected to http://www.example.com/movies/1
+Completed in 7ms (DB: 3) | 302 Found [http://www.example.com/movies]
+REQUESTING PAGE: GET http://www.example.com/movies/1 with {} and HTTP headers {"HTTP_REFERER"=>"/movies"}
+
+
+Processing MoviesController#show (for 127.0.0.1 at 2010-10-18 13:52:32) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mMovie Load (1.0ms)[0m   [0;1mSELECT * FROM "movies" WHERE ("movies"."id" = 1) [0m
+Rendering template within layouts/movies
+Rendering movies/show
+Completed in 4ms (View: 2, DB: 1) | 200 OK [http://www.example.com/movies/1]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 13:52:32) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 13:52:32) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 13:54:00) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 388ms (View: 385, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 13:54:00) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {"HTTP_REFERER"=>"/movies/new/results"}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 13:54:00) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: POST /movies with {"commit"=>"Enter", "movie"=>{"title"=>"Star Wars"}} and HTTP headers {"HTTP_REFERER"=>"/movies/new"}
+
+
+Processing MoviesController#create (for 127.0.0.1 at 2010-10-18 13:54:00) [POST]
+  Parameters: {"commit"=>"Enter", "movie"=>{"title"=>"Star Wars"}}
+  [4;36;1mMovie Load (0.0ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Star Wars') LIMIT 1[0m
+  [4;35;1mMovie Create (1.0ms)[0m   [0mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES(NULL, '2010-10-18 20:54:00', 'Star Wars', NULL, '2010-10-18 20:54:00', NULL)[0m
+Redirected to http://www.example.com/movies/1
+Completed in 7ms (DB: 1) | 302 Found [http://www.example.com/movies]
+REQUESTING PAGE: GET http://www.example.com/movies/1 with {} and HTTP headers {"HTTP_REFERER"=>"/movies"}
+
+
+Processing MoviesController#show (for 127.0.0.1 at 2010-10-18 13:54:00) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mMovie Load (0.0ms)[0m   [0;1mSELECT * FROM "movies" WHERE ("movies"."id" = 1) [0m
+Rendering template within layouts/movies
+Rendering movies/show
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://www.example.com/movies/1]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 13:54:00) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 13:54:01) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 13:54:37) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 392ms (View: 388, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 13:54:38) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {"HTTP_REFERER"=>"/movies/new/results"}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 13:54:38) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 9, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: POST /movies with {"commit"=>"Enter", "movie"=>{"title"=>"Star Wars"}} and HTTP headers {"HTTP_REFERER"=>"/movies/new"}
+
+
+Processing MoviesController#create (for 127.0.0.1 at 2010-10-18 13:54:38) [POST]
+  Parameters: {"commit"=>"Enter", "movie"=>{"title"=>"Star Wars"}}
+  [4;36;1mMovie Load (0.0ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Star Wars') LIMIT 1[0m
+  [4;35;1mMovie Create (0.0ms)[0m   [0mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES(NULL, '2010-10-18 20:54:38', 'Star Wars', NULL, '2010-10-18 20:54:38', NULL)[0m
+Redirected to http://www.example.com/movies/1
+Completed in 6ms (DB: 0) | 302 Found [http://www.example.com/movies]
+REQUESTING PAGE: GET http://www.example.com/movies/1 with {} and HTTP headers {"HTTP_REFERER"=>"/movies"}
+
+
+Processing MoviesController#show (for 127.0.0.1 at 2010-10-18 13:54:38) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mMovie Load (1.0ms)[0m   [0;1mSELECT * FROM "movies" WHERE ("movies"."id" = 1) [0m
+Rendering template within layouts/movies
+Rendering movies/show
+Completed in 4ms (View: 2, DB: 1) | 200 OK [http://www.example.com/movies/1]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 13:54:38) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 13:54:38) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 15:30:29) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 358ms (View: 353, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {"HTTP_REFERER"=>"/movies/new"}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 15:30:29) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: POST /movies with {"commit"=>"Enter", "movie"=>{"title"=>"Star Wars"}} and HTTP headers {"HTTP_REFERER"=>"/movies/new"}
+
+
+Processing MoviesController#create (for 127.0.0.1 at 2010-10-18 15:30:29) [POST]
+  Parameters: {"commit"=>"Enter", "movie"=>{"title"=>"Star Wars"}}
+  [4;36;1mMovie Load (0.0ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Star Wars') LIMIT 1[0m
+  [4;35;1mMovie Create (0.0ms)[0m   [0mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES(NULL, '2010-10-18 22:30:29', 'Star Wars', NULL, '2010-10-18 22:30:29', NULL)[0m
+Redirected to http://www.example.com/movies/1
+Completed in 6ms (DB: 0) | 302 Found [http://www.example.com/movies]
+REQUESTING PAGE: GET http://www.example.com/movies/1 with {} and HTTP headers {"HTTP_REFERER"=>"/movies"}
+
+
+Processing MoviesController#show (for 127.0.0.1 at 2010-10-18 15:30:29) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mMovie Load (0.0ms)[0m   [0;1mSELECT * FROM "movies" WHERE ("movies"."id" = 1) [0m
+Rendering template within layouts/movies
+Rendering movies/show
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2010-10-18 15:30:29) [GET]
+  Parameters: {"id"=>"1"}
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 15:30:29) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {"HTTP_REFERER"=>"/movies/new/results"}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 15:30:29) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: POST /movies with {"commit"=>"Enter", "movie"=>{"title"=>"Star Wars"}} and HTTP headers {"HTTP_REFERER"=>"/movies/new"}
+
+
+Processing MoviesController#create (for 127.0.0.1 at 2010-10-18 15:30:29) [POST]
+  Parameters: {"commit"=>"Enter", "movie"=>{"title"=>"Star Wars"}}
+  [4;35;1mMovie Load (0.0ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Star Wars') LIMIT 1[0m
+  [4;36;1mMovie Create (1.0ms)[0m   [0;1mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES(NULL, '2010-10-18 22:30:29', 'Star Wars', NULL, '2010-10-18 22:30:29', NULL)[0m
+Redirected to http://www.example.com/movies/1
+Completed in 6ms (DB: 1) | 302 Found [http://www.example.com/movies]
+REQUESTING PAGE: GET http://www.example.com/movies/1 with {} and HTTP headers {"HTTP_REFERER"=>"/movies"}
+
+
+Processing MoviesController#show (for 127.0.0.1 at 2010-10-18 15:30:29) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mMovie Load (0.0ms)[0m   [0mSELECT * FROM "movies" WHERE ("movies"."id" = 1) [0m
+Rendering template within layouts/movies
+Rendering movies/show
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2010-10-18 15:30:29) [GET]
+  Parameters: {"id"=>"1"}
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 15:30:29) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {"HTTP_REFERER"=>"/movies/new/results"}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 15:30:29) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: POST /movies with {"commit"=>"Enter", "movie"=>{"title"=>"Star Wars"}} and HTTP headers {"HTTP_REFERER"=>"/movies/new"}
+
+
+Processing MoviesController#create (for 127.0.0.1 at 2010-10-18 15:30:29) [POST]
+  Parameters: {"commit"=>"Enter", "movie"=>{"title"=>"Star Wars"}}
+  [4;36;1mMovie Load (0.0ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Star Wars') LIMIT 1[0m
+  [4;35;1mMovie Create (1.0ms)[0m   [0mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES(NULL, '2010-10-18 22:30:29', 'Star Wars', NULL, '2010-10-18 22:30:29', NULL)[0m
+Redirected to http://www.example.com/movies/1
+Completed in 6ms (DB: 1) | 302 Found [http://www.example.com/movies]
+REQUESTING PAGE: GET http://www.example.com/movies/1 with {} and HTTP headers {"HTTP_REFERER"=>"/movies"}
+
+
+Processing MoviesController#show (for 127.0.0.1 at 2010-10-18 15:30:29) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mMovie Load (0.0ms)[0m   [0;1mSELECT * FROM "movies" WHERE ("movies"."id" = 1) [0m
+Rendering template within layouts/movies
+Rendering movies/show
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2010-10-18 15:30:29) [GET]
+  Parameters: {"id"=>"1"}
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 15:30:29) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: POST /movies with {"commit"=>"Enter", "movie"=>{"title"=>"Star Wars"}} and HTTP headers {"HTTP_REFERER"=>"/movies/new"}
+
+
+Processing MoviesController#create (for 127.0.0.1 at 2010-10-18 15:30:29) [POST]
+  Parameters: {"commit"=>"Enter", "movie"=>{"title"=>"Star Wars"}}
+  [4;35;1mMovie Load (0.0ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Star Wars') LIMIT 1[0m
+  [4;36;1mMovie Create (0.0ms)[0m   [0;1mINSERT INTO "movies" ("rating", "created_at", "title", "released_on", "updated_at", "description") VALUES(NULL, '2010-10-18 22:30:29', 'Star Wars', NULL, '2010-10-18 22:30:29', NULL)[0m
+Redirected to http://www.example.com/movies/1
+Completed in 6ms (DB: 0) | 302 Found [http://www.example.com/movies]
+REQUESTING PAGE: GET http://www.example.com/movies/1 with {} and HTTP headers {"HTTP_REFERER"=>"/movies"}
+
+
+Processing MoviesController#show (for 127.0.0.1 at 2010-10-18 15:30:29) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mMovie Load (0.0ms)[0m   [0mSELECT * FROM "movies" WHERE ("movies"."id" = 1) [0m
+Rendering template within layouts/movies
+Rendering movies/show
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2010-10-18 15:30:29) [GET]
+  Parameters: {"id"=>"1"}
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 15:36:03) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 354ms (View: 350, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {"HTTP_REFERER"=>"/movies/new"}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 15:36:03) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: POST /movies with {"commit"=>"Enter", "movie"=>{"title"=>"Star Wars"}} and HTTP headers {"HTTP_REFERER"=>"/movies/new"}
+
+
+Processing MoviesController#create (for 127.0.0.1 at 2010-10-18 15:36:03) [POST]
+  Parameters: {"commit"=>"Enter", "movie"=>{"title"=>"Star Wars"}}
+  [4;36;1mMovie Load (1.0ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Star Wars') LIMIT 1[0m
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 129ms (View: 125, DB: 1) | 200 OK [http://www.example.com/movies]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 15:36:04) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {"HTTP_REFERER"=>"/movies/new/results"}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 15:36:04) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: POST /movies with {"commit"=>"Enter", "movie"=>{"title"=>"Star Wars"}} and HTTP headers {"HTTP_REFERER"=>"/movies/new"}
+
+
+Processing MoviesController#create (for 127.0.0.1 at 2010-10-18 15:36:04) [POST]
+  Parameters: {"commit"=>"Enter", "movie"=>{"title"=>"Star Wars"}}
+  [4;35;1mMovie Load (1.0ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Star Wars') LIMIT 1[0m
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 8ms (View: 5, DB: 1) | 200 OK [http://www.example.com/movies]
+REQUESTING PAGE: GET /movies/new/results with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 15:36:04) [GET]
+  Parameters: {"id"=>"results"}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://www.example.com/movies/new/results]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {"HTTP_REFERER"=>"/movies/new/results"}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 15:36:04) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: POST /movies with {"commit"=>"Enter", "movie"=>{"title"=>"Star Wars"}} and HTTP headers {"HTTP_REFERER"=>"/movies/new"}
+
+
+Processing MoviesController#create (for 127.0.0.1 at 2010-10-18 15:36:04) [POST]
+  Parameters: {"commit"=>"Enter", "movie"=>{"title"=>"Star Wars"}}
+  [4;36;1mMovie Load (0.0ms)[0m   [0;1mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Star Wars') LIMIT 1[0m
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://www.example.com/movies]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 15:36:04) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: POST /movies with {"commit"=>"Enter", "movie"=>{"title"=>"Star Wars"}} and HTTP headers {"HTTP_REFERER"=>"/movies/new"}
+
+
+Processing MoviesController#create (for 127.0.0.1 at 2010-10-18 15:36:04) [POST]
+  Parameters: {"commit"=>"Enter", "movie"=>{"title"=>"Star Wars"}}
+  [4;35;1mMovie Load (0.0ms)[0m   [0mSELECT "movies".id FROM "movies" WHERE ("movies"."title" = 'Star Wars') LIMIT 1[0m
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 10ms (View: 5, DB: 0) | 200 OK [http://www.example.com/movies]

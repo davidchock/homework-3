@@ -1,0 +1,50 @@
+Using the default profile...
+.hi
+.U.UU.UUUUU.UU
+
+5 scenarios (5 undefined)
+15 steps (10 undefined, 5 passed)
+0m2.274s
+
+You can implement step definitions for undefined steps with these snippets:
+
+Then /^it should say "([^"]*)"$/ do |arg1|
+  pending # express the regexp above with the code you wish you had
+end
+
+When /^I enter a movie that does exist$/ do
+  pending # express the regexp above with the code you wish you had
+end
+
+Then /^I should be taken to a separate "([^"]*)" page$/ do |arg1|
+  pending # express the regexp above with the code you wish you had
+end
+
+When /^I click one of the movie results$/ do
+  pending # express the regexp above with the code you wish you had
+end
+
+Then /^I should see the movie's information$/ do
+  pending # express the regexp above with the code you wish you had
+end
+
+Given /^I clicked a movie on the results page$/ do
+  pending # express the regexp above with the code you wish you had
+end
+
+When /^I see the movie information has been filled out$/ do
+  pending # express the regexp above with the code you wish you had
+end
+
+Then /^I should be notified that a new movie has been stored in my database$/ do
+  pending # express the regexp above with the code you wish you had
+end
+
+When /^I click "([^"]*)"$/ do |arg1|
+  pending # express the regexp above with the code you wish you had
+end
+
+Then /^I should return back to the page with the movie search$/ do
+  pending # express the regexp above with the code you wish you had
+end
+
