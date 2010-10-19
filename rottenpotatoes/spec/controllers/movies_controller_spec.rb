@@ -1,11 +1,83 @@
 require 'spec_helper'
 
 describe MoviesController do
-
+  before(:each) do
+    @fakedb = []
+	@movie1 = mock_movie({
+     :title => "Pocahontas",
+	 :overview => "No overview found",
+	 :genre => "Action",
+     :scores => "10",
+     :rating => "G",
+     :released_on => Time.parse("1/1/1995")
+    })
+	@movie2 = mock_movie({
+     :title => "Pocahontas2",
+	 :overview => "No overview found",
+	 :genre => "Action",
+     :scores => "10",
+     :rating => "G",
+     :released_on => Time.parse("1/1/1995")
+    })
+	@movie3 = mock_movie({
+     :title => "Pocahontas3",
+	 :overview => "No overview found",
+	 :genre => "Action",
+     :scores => "10",
+     :rating => "G",
+     :released_on => Time.parse("1/1/1995")
+    })
+	@movie4 = mock_movie({
+     :title => "Pocahontas4",
+	 :overview => "No overview found",
+	 :genre => "Action",
+     :scores => "10",
+     :rating => "G",
+     :released_on => Time.parse("1/1/1995")
+    })
+	@movie5 = mock_movie({
+     :title => "Pocahontas5",
+	 :overview => "No overview found",
+	 :genre => "Action",
+     :scores => "10",
+     :rating => "G",
+     :released_on => Time.parse("1/1/1995")
+    })
+   @movie1.stub(:save).and_return(true)
+   @movie2.stub(:save).and_return(true)
+   @movie3.stub(:save).and_return(true)
+   @movie4.stub(:save).and_return(true)
+   @movie5.stub(:save).and_return(true)
+   @fakedb << @movie1
+   @fakedb << @movie2
+   @fakedb << @movie3
+   @fakedb << @movie4
+   @fakedb << @movie5
+  end
+  
+	
   def mock_movie(stubs={})
     @mock_movie ||= mock_model(Movie, stubs)
+  end	
+  
+  
+  
+  describe "Data is correct" do
+    it "should check to see the right values were assigned to the right fields" do
+	  abc = @fakedb[0]
+	  abc.should == @movie1
+	end
+	
+	it "should return 5 movies from data structure" do
+	  
+	  listOfMovies.size.should == 5
+	  
+	  assigns[:results].should == @fakedb
+	end
   end
-
+  
+  
+  
   describe "GET index" do
     it "assigns all movies as @movies" do
       Movie.stub(:find).with(:all).and_return([mock_movie])
@@ -39,7 +111,6 @@ describe MoviesController do
   end
 
   describe "POST create" do
-
     describe "with valid params" do
       it "assigns a newly created movie as @movie" do
         Movie.stub(:new).with({'these' => 'params'}).and_return(mock_movie(:save => true))

@@ -1,3 +1,6 @@
+require 'rubygems'
+require 'hpricot'
+
 class Movie < ActiveRecord::Base
 	validates_presence_of :title
 	validates_uniqueness_of :title 
@@ -9,6 +12,7 @@ class Movie < ActiveRecord::Base
 	attr_accessor :genre
 	attr_accessor :scores
 	attr_accessor :released_on
+	
 	
 	def appropriate_for_birthdate?(birthdate)
 		if self.rating == "R" or self.rating == "NC-17"
@@ -27,5 +31,9 @@ class Movie < ActiveRecord::Base
 			ret = Movie.find(:all, :conditions => {:rating => ["PG", "G", "PG-13"]} )			
 		else Movie.find(:all, :conditions => {:rating => ["PG", "G"]})
 		end
+	end
+	
+	def self.query_movies(title)
+	  url = "http://api.themoviedb.org/2.1/Movie.search/en/xml/0145b2c6108c645e9c19c15368fcf381/" + title
 	end
 end

@@ -13,8 +13,6 @@ describe Movie do
    Movie.create(@valid_attributes).should be_true
  end
 
- 
-
  describe "when validating a movie" do
    it "should not allow a movie with no title" do
      @no_title_attributes = {
