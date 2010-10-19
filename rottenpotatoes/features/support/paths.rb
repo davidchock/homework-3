@@ -11,11 +11,10 @@ module NavigationHelpers
     when /the home\s?page/
       '/'
 
-    when /new movie page/
+    when /the new movie page/
       '/movies/new'
 
-    when /the results page/
-      '/movies/new/results'
+
 
     # Add more mappings here.
     # Here is an example that pulls values out of the Regexp:

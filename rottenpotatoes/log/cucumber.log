@@ -1403,3 +1403,353 @@ Processing MoviesController#create (for 127.0.0.1 at 2010-10-18 15:36:04) [POST]
 Rendering template within layouts/movies
 Rendering movies/new
 Completed in 10ms (View: 5, DB: 0) | 200 OK [http://www.example.com/movies]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 21:16:08) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 429ms (View: 425, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 21:16:09) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 21:16:09) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 21:16:09) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 21:16:09) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 21:20:45) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 347ms (View: 343, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 21:20:45) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 21:20:45) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 21:20:45) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 21:20:45) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 21:21:09) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 395ms (View: 391, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 21:21:09) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 21:21:09) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 21:21:10) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 21:21:10) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 21:36:37) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 359ms (View: 355, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 21:36:37) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 21:36:37) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 21:36:37) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 21:36:37) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 21:38:23) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 392ms (View: 387, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 21:38:23) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 21:38:24) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 21:38:24) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 21:38:24) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 21:39:12) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 364ms (View: 360, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 21:39:12) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 21:39:12) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 21:39:12) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 21:39:12) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 21:41:51) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 354ms (View: 350, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 21:41:51) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 21:41:51) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 21:41:51) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 21:41:51) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 21:46:17) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 350ms (View: 346, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 21:46:17) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 21:46:17) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 21:46:17) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 21:46:17) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 21:49:01) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 361ms (View: 357, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 21:49:02) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 21:49:02) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 21:49:02) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 21:49:02) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 22:01:27) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 356ms (View: 352, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 22:01:27) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 22:01:27) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 22:01:27) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://www.example.com/movies/new]
+REQUESTING PAGE: GET /movies/new with {} and HTTP headers {}
+
+
+Processing MoviesController#new (for 127.0.0.1 at 2010-10-18 22:01:27) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://www.example.com/movies/new]

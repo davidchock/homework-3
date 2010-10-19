@@ -1,63 +1,33 @@
-require 'uri'
-require 'cgi'
-require File.expand_path(File.join(File.dirname(__FILE__), "..", "support", "paths"))
-
-When /I enter a movie that does not exist$/ do 
-  @movieName = "d;lafjd;lajk"
+When /^I search for "([^"]*)"$/ do |arg1|
+  fill_in "Title", :with => arg1
 end
-
-Then /^it should say "([^"]*)"$/ do |arg1|
-  lookup = Movie.query(@movieName)
-  lookup.should == arg1   
-end
-
-When /^I enter a movie$/ do
-  @movieName = "Star Wars"
-end
-
 
 Then /^I should be taken to a separate "([^"]*)" page$/ do |arg1|
-  visits "/movies/new"
-  fills_in "title", :with => @movieName
-  clicks_button "Enter"
+  current_url.should_not == '/movies/new'
 end
 
-When /^I click one of the movie results$/ do
-  visit "/movies/new"
-  fill_in "title", :with => "Star Wars"
-  click_button "Enter"
-  #clicks_link "Movie 1"
-  @response = response
+Then /^it should say "([^"]*)" and allow me to search again$/ do |arg1|
+  response.should contain("Movie not found")
 end
 
-Then /^I should see the movie's information$/ do
-  pending
+
+When /^I select "([^"]*)"$/ do |arg1|
+  click_link arg1
 end
 
-Given /^I clicked a movie on the results page$/ do
-  visit "/movies/new"
-  fill_in "title", :with => "Star Wars"
-  click_button "Enter"
-  #clicks_link "Movie 1"
-  @response = response 
-end
-
-When /^I see the movie information has been filled out$/ do
-  
-end
-
-Then /^I should be prompted that a new movie will be stored in my database$/ do
-  pending
+Then /^I should see it is rated "([^"]*)"$/ do |arg1|
+  response.should contain("R")
 end
 
 When /^I click "([^"]*)"$/ do |arg1|
-  visit "/movies/new"
-  fill_in "title", :with => "Star Wars"
-  click_button "Enter"
-  click_button "None of these"
-  @response = response
+  click_button arg1
 end
 
-Then /^I should return back to the page with the movie search$/ do
-  pending
+Then /^I should be able to find "([^"]*)" in my database$/ do |arg1|
+  visit '/'
+  response.should contain(arg1)
+end
+
+Then /^I should go back to the new movie page$/ do
+  response.should contain("New movie")
 end
