@@ -1,282 +1,128 @@
 require 'spec_helper'
 
 describe Movie do
- before(:each) do
-   @valid_attributes = {
-     :title => "Pocahontas",
-     :description => "A movie about the new world.",
+  before(:each) do
+    @fakedb = []
+    @movie_list = []
+
+	class Array
+	  def save(movie)
+		self << movie
+      end
+	end
+    @movie1 = mock_movie({
+		:title => "Pocahontas",
+		:overview => "No overview found",
+		:genre => "Action",
+		:scores => "10",
+		:rating => "G",
+		:released_on => Time.parse("1/1/1995")
+		})
+	@movie2 = mock_movie({
+		:title => "Pocahontas2",
+		:overview => "No overview found",
+		:genre => "Action",
+		:scores => "10",
+		:rating => "G",
+		:released_on => Time.parse("1/2/1995")
+		})
+	@movie3 = mock_movie({
+		:title => "Pocahontas3",
+		:overview => "No overview found",
+		:genre => "Action",
+		:scores => "10",
+		:rating => "G",
+		:released_on => Time.parse("1/3/1995")
+		})
+	@movie4 = mock_movie({
+		:title => "Pocahontas4",
+		:overview => "No overview found",
+		:genre => "Action",
+		:scores => "10",
+		:rating => "G",
+		:released_on => Time.parse("1/4/1995")
+		})
+	@movie5 = mock_movie({
+		:title => "Pocahontas5",
+		:overview => "No overview found",
+	 :genre => "Action",
+     :scores => "10",
      :rating => "G",
-     :released_on => Time.parse("1/1/1995")
-   }
- end
- it "should create a new instance given valid attributes" do
-   Movie.create(@valid_attributes).should be_true
- end
-
- describe "when validating a movie" do
-   it "should not allow a movie with no title" do
-     @no_title_attributes = {
-       :description => "A movie about the new world.",
-       :rating => "G",
-       :released_on => Time.parse("1/1/1995")
-     }
-     @movie = Movie.new(@no_title_attributes)
-     @movie.should_not be_valid
-   end
-   it "should not allow a movie with no description" do
-
-     @no_description_attributes = {
-       :title => "Avatar",
-       :rating => "PG-13",
-       :released_on => Time.parse("1/1/1995")
-     }
-     @movie = Movie.new(@no_description_attributes)
-     @movie.should_not be_valid
-
-   end
-	 
-   it "should not allow a movie with a title that is not unique" do
-	 Movie.create(@valid_attributes)
-		@movie = Movie.new(@valid_attributes)
-		@movie.should_not be_valid
-	 end
-	 it "should not allow a movie with a description less than 10 characters long" do
-	   @movie_attributes = {
-       :title => "Avatar",
-			 :description => "too short",
-       :rating => "PG-13",
-       :released_on => Time.parse("1/1/1995")
-     }
-     @movie = Movie.new(@movie_attributes)
-     @movie.should_not be_valid
-	 end
-   it "should allow a movie with a valid movie rating" do
-		@valid_rating_attributes = {
-       :title => "Avatar",
-			 :description => "too short to care",
-       :rating => "PG-13",
-       :released_on => Time.parse("1/1/1995")
-     }
-     @movie = Movie.new(@valid_rating_attributes)
-     @movie.should be_valid
-	 end
+     :released_on => Time.parse("1/5/1995")
+    })
 	
-   it "should not allow a movie with an invalid movie rating" do
-	 	@valid_rating_attributes = {
-       :title => "Avatar",
-			 :description => "too short to care",
-       :rating => "PG-14",
-       :released_on => Time.parse("1/1/1995")
-     }
-     @movie = Movie.new(@valid_rating_attributes)
-     @movie.should_not be_valid
-		end
- end
+	@movie_list << @movie1
+	@movie_list << @movie2
+	@movie_list << @movie3
+	@movie_list << @movie4
+	@movie_list << @movie5
 
+  end
  
-
- # Add more specs here!
-
+   def mock_movie(stubs={})
+    @mock_movie ||= mock_model(Movie, stubs)
+  end	
  
-
-
- describe "when checking age-appropriateness" do
-   it "should be appropriate for a 15-year-old if rated G" do
-		@valid_rating_attributes = {
-       :title => "Avatar",
-			 :description => "too short to care",
-       :rating => "G",
-       :released_on => Time.parse("1/1/1995")
-     }
-     @movie = Movie.new(@valid_rating_attributes)
-		 @movie.appropriate_for_birthdate?(15.year.ago).should == true 
+ describe "(stubbed) tmdb api calls" do 
+   it "(stubbed) returns 5 movies when call api " do
+     mock_tmdb = mock('Tmdb')
+	 Result.stub!(:api_call).and_return(@movie_list)
+	 
+	 result = Result.api_call("hey")
+	 
+	 result.size.should == 5
+	 result.each do |movie| 
+	    movie.class.to_s.should == "Movie"
+		
+	   end
+	 
 	end
-	it "should be appropriate for a 15-year-old if rated PG" do
-		@valid_rating_attributes = {
-       :title => "Avatar",
-			 :description => "too short to care",
-       :rating => "PG",
-       :released_on => Time.parse("1/1/1995")
-     }
-     @movie = Movie.new(@valid_rating_attributes)
-		 @movie.appropriate_for_birthdate?(15.year.ago).should == true 
+	
+	it "(stubbed) returns 0 movies" do
+	  Result.stub!(:api_call).and_return([])
+	  
+	  result = Result.api_call("")
+	  
+	  result.size.should == 0
 	end
-	it "should be appropriate for a 13-year-old if rated PG-13" do
-		@valid_rating_attributes = {
-       :title => "Avatar",
-			 :description => "too short to care",
-       :rating => "PG-13",
-       :released_on => Time.parse("1/1/1995")
-     }
-     @movie = Movie.new(@valid_rating_attributes)
-		 @movie.appropriate_for_birthdate?(13.year.ago).should == true 
+	
+	it "(stubbed) should save movie in database" do
+	  Result.stub!(:api_call).and_return(@movie_list)
+	  result = Result.api_call("Saw")
+	  
+	  @fakedb.save(result[0])
+	  
+	  @fakedb.size.should == 1
+	  @fakedb[0].should == @movie1
+    end
+  
+  end
+ 
+  describe "non-stubbed tmdb api calls"
+    it "returns 5 movies when call api " do
+ 
+	 result = Result.api_call("Finding Nemo")
+	 
+	 puts results
+	 
+	 result.size.should == 5
+	 result.each do |movie| 
+	    movie.class.to_s.should == "Movie"
+		
+	   end
+	 
 	end
-	it "should be appropriate for a 17-year-old if rated R" do
-		@valid_rating_attributes = {
-       :title => "Avatar",
-			 :description => "too short to care",
-       :rating => "R",
-       :released_on => Time.parse("1/1/1995")
-     }
-     @movie = Movie.new(@valid_rating_attributes)
-		 @movie.appropriate_for_birthdate?(17.year.ago).should == true 
+	
+	it "returns 0 movies" do	  
+	  result = Result.api_call("")	  
+	  result.size.should == 0
 	end
-	it "should be appropriate for a 17-year-old if rated NC-17" do
-		@valid_rating_attributes = {
-       :title => "Avatar",
-			 :description => "too short to care",
-       :rating => "NC-17",
-       :released_on => Time.parse("1/1/1995")
-     }
-     @movie = Movie.new(@valid_rating_attributes)
-		 @movie.appropriate_for_birthdate?(17.year.ago).should == true 
-	end
-   it "should be appropriate for a 30-year-old if rated G" do
-	 		@valid_rating_attributes = {
-       :title => "Avatar",
-			 :description => "too short to care",
-       :rating => "G",
-       :released_on => Time.parse("1/1/1995")
-     }
-     @movie = Movie.new(@valid_rating_attributes)
-		 @movie.appropriate_for_birthdate?(30.year.ago).should == true 
-		 end
-
-   it "should not be appropriate for a 15-year-old if rated R" do
-	 		@valid_rating_attributes = {
-       :title => "Avatar",
-			 :description => "too short to care",
-       :rating => "R",
-       :released_on => Time.parse("1/1/1995")
-     }
-     @movie = Movie.new(@valid_rating_attributes)
-		 @movie.appropriate_for_birthdate?(15.year.ago).should == false 
-	end
-	it "should not be appropriate for a 15-year-old if rated NC-17" do
-	 		@valid_rating_attributes = {
-       :title => "Avatar",
-			 :description => "too short to care",
-       :rating => "NC-17",
-       :released_on => Time.parse("1/1/1995")
-     }
-     @movie = Movie.new(@valid_rating_attributes)
-		 @movie.appropriate_for_birthdate?(15.year.ago).should == false 
-	end
-	it "should not be appropriate for a 12-year-old if rated PG-13" do
-	 		@valid_rating_attributes = {
-       :title => "Avatar",
-			 :description => "too short to care",
-       :rating => "PG-13",
-       :released_on => Time.parse("1/1/1995")
-     }
-     @movie = Movie.new(@valid_rating_attributes)
-		 @movie.appropriate_for_birthdate?(12.year.ago).should == false 
-	end
- end
-
- describe "database finder for age-appropriateness" do
-   it "should always include G rated movies" do
-     @movie = Movie.create(@valid_attributes)
-     Movie.find_all_appropriate_for_birthdate(Time.now).should include(@movie)
-   end
-
-   it "should exclude R rated movies if age is less than 17" do
-		@valid_rating_attributes = {
-       :title => "Avatar",
-			 :description => "too short to care",
-       :rating => "R",
-       :released_on => Time.parse("1/1/1995")
-     }
-     @movie = Movie.create(@valid_rating_attributes)
-		 Movie.find_all_appropriate_for_birthdate(16.year.ago).should_not include(@movie)
-	end
-	it "should exclude R rated movies if age is less than 17" do
-		@valid_rating_attributes = {
-       :title => "Avatar",
-			 :description => "too short to care",
-       :rating => "R",
-       :released_on => Time.parse("1/1/1995")
-     }
-     @movie = Movie.create(@valid_rating_attributes)
-		 Movie.find_all_appropriate_for_birthdate(16.year.ago).should_not include(@movie)
-	end
-	it "should exclude PG-13 rated movies if age is less than 13" do
-		@valid_rating_attributes = {
-       :title => "Avatar",
-			 :description => "too short to care",
-       :rating => "PG-13",
-       :released_on => Time.parse("1/1/1995")
-     }
-     @movie = Movie.create(@valid_rating_attributes)
-		 Movie.find_all_appropriate_for_birthdate(12.year.ago).should_not include(@movie)
-	end
-	it "should exclude R rated movies if age is less than 17" do
-		@valid_rating_attributes = {
-       :title => "Avatar",
-			 :description => "too short to care",
-       :rating => "R",
-       :released_on => Time.parse("1/1/1995")
-     }
-     @movie = Movie.create(@valid_rating_attributes)
-		 Movie.find_all_appropriate_for_birthdate(16.year.ago).should_not include(@movie)
-	end
-	it "should exclude NC-17 rated movies if age is less than 17" do
-		@valid_rating_attributes = {
-       :title => "Avatar",
-			 :description => "too short to care",
-       :rating => "NC-17",
-       :released_on => Time.parse("1/1/1995")
-     }
-     @movie = Movie.create(@valid_rating_attributes)
-		 Movie.find_all_appropriate_for_birthdate(16.year.ago).should_not include(@movie)
-	end
-	it "should exclude PG-13,R,and NC-17 rated movies if age is less than 13" do
-		@valid_rating_attributes = {
-       :title => "Avatar",
-			 :description => "too short to care",
-       :rating => "PG-13",
-       :released_on => Time.parse("1/1/1995")
-     }
-		 @valid_rating_attributes2 = {
-       :title => "Avatar2",
-			 :description => "too short to care",
-       :rating => "R",
-       :released_on => Time.parse("1/1/1995")
-     }
-		 @valid_rating_attributes3 = {
-       :title => "Avatar3",
-			 :description => "too short to care",
-       :rating => "NC-17",
-       :released_on => Time.parse("1/1/1995")
-     }
-		 @valid_rating_attributes4 = {
-       :title => "Avatar4",
-			 :description => "too short to care",
-       :rating => "G",
-       :released_on => Time.parse("1/1/1995")
-     }
-		 @valid_rating_attributes5 = {
-       :title => "Avatar5",
-			 :description => "too short to care",
-       :rating => "PG",
-       :released_on => Time.parse("1/1/1995")
-     }
-     @movie = Movie.new(@valid_rating_attributes)
-		 @movie1 = Movie.create(@valid_rating_attributes2)
-		 @movie2 = Movie.create(@valid_rating_attributes3)
-		 @movie3 = Movie.create(@valid_rating_attributes4)
-		 @movie4 = Movie.create(@valid_rating_attributes5)
-		 Movie.find_all_appropriate_for_birthdate(12.year.ago).should_not include(@movie,@movie1,@movie2)
-	end
-	it "should include PG-13,NC-17,R,G,PG rated movies if age is greater than 16" do
-		 @valid_rating_attributes = {
-       :title => "Avatar",
-			 :description => "too short to care",
-       :rating => "R",
-       :released_on => Time.parse("1/1/1995")
-     }
-     @movie = Movie.create(@valid_rating_attributes)
-		 Movie.find_all_appropriate_for_birthdate(17.year.ago).should include(@movie)
-	end
- end
+	
+	it "should save movie in database" do
+	  result = Result.api_call("Saw")	  
+	  Movie.save(result[0])	  
+	  Movie.find(result[0]).should == True
+  end
+ 
+ 
 end

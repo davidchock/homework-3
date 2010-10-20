@@ -61,7 +61,7 @@ describe MoviesController do
   end	
   
   
-  do we need to mimick how the user clicks the save button
+  #do we need to mimick how the user clicks the save button
   
   describe "Data is correct" do
     it "should check to see the right values were assigned to the right fields" do
