@@ -2,6 +2,11 @@ require 'spec_helper'
 
 describe MoviesController do
   before(:each) do
+    class Array
+	  def save(movie)
+		self << movie
+      end
+	end
     @fakedb = []
 	@movie1 = mock_movie({
      :title => "Pocahontas",
@@ -17,7 +22,7 @@ describe MoviesController do
 	 :genre => "Action",
      :scores => "10",
      :rating => "G",
-     :released_on => Time.parse("1/1/1995")
+     :released_on => Time.parse("1/2/1995")
     })
 	@movie3 = mock_movie({
      :title => "Pocahontas3",
@@ -25,7 +30,7 @@ describe MoviesController do
 	 :genre => "Action",
      :scores => "10",
      :rating => "G",
-     :released_on => Time.parse("1/1/1995")
+     :released_on => Time.parse("1/3/1995")
     })
 	@movie4 = mock_movie({
      :title => "Pocahontas4",
@@ -33,7 +38,7 @@ describe MoviesController do
 	 :genre => "Action",
      :scores => "10",
      :rating => "G",
-     :released_on => Time.parse("1/1/1995")
+     :released_on => Time.parse("1/4/1995")
     })
 	@movie5 = mock_movie({
      :title => "Pocahontas5",
@@ -41,13 +46,8 @@ describe MoviesController do
 	 :genre => "Action",
      :scores => "10",
      :rating => "G",
-     :released_on => Time.parse("1/1/1995")
+     :released_on => Time.parse("1/5/1995")
     })
-   @movie1.stub(:save).and_return(true)
-   @movie2.stub(:save).and_return(true)
-   @movie3.stub(:save).and_return(true)
-   @movie4.stub(:save).and_return(true)
-   @movie5.stub(:save).and_return(true)
    @fakedb << @movie1
    @fakedb << @movie2
    @fakedb << @movie3
@@ -61,11 +61,15 @@ describe MoviesController do
   end	
   
   
+  do we need to mimick how the user clicks the save button
   
   describe "Data is correct" do
     it "should check to see the right values were assigned to the right fields" do
 	  abc = @fakedb[0]
 	  abc.should == @movie1
+	  
+	  
+	  
 	end
 	
 	it "should return 5 movies from data structure" do

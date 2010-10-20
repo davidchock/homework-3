@@ -3,8 +3,6 @@ Feature: User can search for movie
 	As a user
 	I can input a movie title of my choice
 	So that I can search and find its information
-		
-
 
 Scenario: User enters a movie that does not exist
 Given I am on the new movie page

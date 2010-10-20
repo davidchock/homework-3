@@ -11,7 +11,7 @@ class MoviesController < ApplicationController
   end
   
   def results
-    @results = Movie.query_movies(params[:movie][:title])
+
   end
 
   # GET /movies/1
