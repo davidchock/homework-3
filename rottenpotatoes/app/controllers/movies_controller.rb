@@ -3,7 +3,6 @@ class MoviesController < ApplicationController
   # GET /movies.xml
   def index
     @movies = Movie.all
-
     respond_to do |format|
       format.html # index.html.erb
       format.xml  { render :xml => @movies }
@@ -11,6 +10,17 @@ class MoviesController < ApplicationController
   end
   
   def results
+    @title=params[:title]
+      @results = Result.new(@title)
+	  respond_to do |format|
+	     if @results.empty?
+		  format.html { redirect_to(new_movie_path, :notice => 'Movie not found') } # new.html.erb
+		  format.xml {head :ok}
+         else
+          format.html # show.html.erb
+          format.xml  { render :xml => @results }
+	     end
+	  end
 
   end
 
@@ -28,12 +38,7 @@ class MoviesController < ApplicationController
   # GET /movies/new
   # GET /movies/new.xml
   def new
-    @movie = Movie.new
 
-    respond_to do |format|
-      format.html # new.html.erb
-      format.xml  { render :xml => @movie }
-    end
   end
 
   # GET /movies/1/edit
